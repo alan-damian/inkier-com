@@ -1,0 +1,622 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111111;
+}
+
+/* h1, div {
+    
+    color: rgb(123, 58, 23);
+}
+ 
+
+.clients-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+  
+.clients-item {
+    position: relative; 
+    margin: 0;
+}
+  
+.info-card {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+}
+  
+.clients-item:hover .info-card {
+    display: block; 
+} */
+
+
+
+.cont-btn-comenzar {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-comenzar {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(0, 0, 0));
+    box-shadow: 0 0 5px #03e9f4,0 0 15px #03e9f4,
+                0 0 25px #03e9f4, 0 0 100px #03e9f4;
+    background-color: #03e9f4;
+    border-style: none;
+    padding: 20px;
+}
+
+/*BOTÓN DE CONTINUAR PAGINA*/
+#btn-continuar {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #03e9f4;
+}
+
+/*PORTADA*/
+.container {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 3s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.portada {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-Portada.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-portada {
+  margin-top: -10px;
+  animation-duration: 3s;
+  animation-name: slide-text;
+}
+
+
+
+/*PAGINA 1-------------------------------------------------*/
+.container-pag1 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag1 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag1.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag1 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+/*PAGINA 2-------------------------------------------------*/
+.container-pag2 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag2 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag2.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag2 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+/*PAGINA 3-------------------------------------------------*/
+.container-pag3 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag3 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag3.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag3 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 4-------------------------------------------------*/
+.container-pag4 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag4 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag4.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag4 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 5-------------------------------------------------*/
+.container-pag5 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag5 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag5.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag5 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 6-------------------------------------------------*/
+.container-pag6 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag6 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag6.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag6 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 7-------------------------------------------------*/
+.container-pag7 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag7 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag7.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag7 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 8-------------------------------------------------*/
+.container-pag8 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag8 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag8.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag8 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 9-------------------------------------------------*/
+.container-pag9 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag9 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag9.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag9 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 10-------------------------------------------------*/
+.container-pag10 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag10 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag10.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag10 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 11-------------------------------------------------*/
+.container-pag11 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag11 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag11.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag11 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 12-------------------------------------------------*/
+.container-pag12 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag12 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag12.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag12 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 13-------------------------------------------------*/
+.container-pag13 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag13 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag13.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag13 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 14-------------------------------------------------*/
+.container-pag14 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag14 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag14.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag14 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 15-------------------------------------------------*/
+.container-pag15 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag15 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag15.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag15 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 16-------------------------------------------------*/
+.container-pag16 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag16 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag16.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag16 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+/*PAGINA 17-------------------------------------------------*/
+.container-pag17 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  animation: showup-page 2s 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pag17 {
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 220px;
+  background-image: url("./Comic-inkier-pag17.png");
+  background-size: contain;
+  width: 100%;
+}
+
+#p-pag17 {
+  margin-top: -10px;
+  animation-duration: 2s;
+  animation-name: slide-text;
+}
+
+
+@keyframes slide-text {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/*ANIMACIÓN DE BIENVENIDA*/
+
+.landing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e9f4,0 0 15px #03e9f4,
+}
+
+.card {
+  margin-left: 50px;
+  display:flex;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.f-div{    
+  color: #03e9f4;
+  animation: showup 7s forwards;
+}
+
+.l-div {
+  width:0px;
+  animation: reveal 7s forwards;
+}
+
+.l-div span {
+  color: #03e9f4;
+  animation: slidein 7s forwards;
+}
+
+@keyframes showup-page {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    50% {opacity: 1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% {opacity:1;margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:1;width:355px;}
+}
+
+/*PARA RESOLUCIONES MAYORES A */
+
+@media only screen and (min-width: 1270px) {
+  .container-pag1, .container-pag2, .container-pag3, .container-pag4, .container-pag5,
+  .container-pag6, .container-pag7, .container-pag8, .container-pag9, .container-pag10,
+  .container-pag11, .container-pag12, .container-pag13, .container-pag14, .container-pag15,
+  .container-pag16, .container-pag17 {
+    align-items: center;
+  }
+
+  .pag1, .pag2, .pag3, .pag4, .pag5, .pag6, .pag7, .pag8, .pag9, .pag10,
+  .pag11, .pag12, .pag13, .pag14, .pag15, .pag16, .pag17 {
+    background-size: cover;
+    width: 36%;
+    padding-top: 78px;
+  }
+  }
